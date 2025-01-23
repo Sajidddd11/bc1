@@ -255,6 +255,7 @@ img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: #fff;
   transform: translateY(50%);
+  max-width: 40%
 }
 
 .cta__title {
@@ -264,16 +265,17 @@ img {
 
 @media (max-width: 767px) {
   .cta {
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
     margin: 1rem auto;
+    max-width: 100%;
   }
 
   .cta__title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
   }
   .cta .button--primary {
-    padding: 0.5rem 1.75rem;
+    padding: 1rem 3rem;
     font-size: 0.8rem;
   }
 }
