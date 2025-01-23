@@ -177,6 +177,7 @@ img {
 /* Features */
 .features {
   padding: 4rem 0;
+  margin-bottom: -5%;
 }
 
 .feature {
@@ -203,6 +204,7 @@ img {
 @media (max-width: 767px) {
   .features {
     padding: 2rem 0;
+    margin-bottom: -10%;
   }
 
   .feature {
